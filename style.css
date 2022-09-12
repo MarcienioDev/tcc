@@ -1,0 +1,340 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+body {
+  background: #E5E5E5;
+}
+/*Começo do header*/
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 50%;
+}
+
+#logo {
+  width: 162.93px;
+  height: 63px;
+  left: 40px;
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 30.4138px;
+  line-height: 46px;
+  text-align: center;
+  text-transform: lowercase;
+  color: #fff;
+}
+
+header {
+  box-sizing: border-box;
+  height: 700px;
+  padding: 1rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  background: linear-gradient(102.17deg, rgba(26, 124, 36, 0.64) 6.5%, rgba(0, 0, 0, 0.569182) 42.52%, rgba(0, 0, 0, 0.5692) 52.61%, rgba(0, 0, 0, 0.5692) 61.37%, rgba(26, 124, 36, 0.64) 90.26%), url(slide1.jpg);
+  box-shadow: 1px 2px #888888;
+  
+}
+
+header #menu {
+  display: flex;
+  list-style: none;
+  gap: 1.0rem;
+  color: #fff;
+  position: absolute;
+  right: 100px;
+  top: 30px;
+
+}
+header #menu a {
+  display: block;
+  padding: 0.5rem;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+header #btn-mobile {
+  display: none;
+  color: #fff;
+}
+header section.msg-welcome h1{
+  position: absolute;
+  width: 100%;
+  height: 278.02px;
+  left: 0px;
+  top: 170px;
+  font-weight: 700;
+  font-size: 71px;
+  line-height: 90px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+}
+header section.msg-welcome p{
+  position: absolute;
+  width: 100%;
+  height: 192px;
+  left: 0px;
+  top: 430px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  font-style: italic;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+}
+
+/*Fim do header*/
+
+/*Começo da primeira section*/
+
+section.about{
+  height: 756px;
+  width: 100%;
+}
+section.about h1{
+  position: relative;
+  width: 327px;
+  height: 58px;
+  left: calc(50% - 327px/2 - 0.5px);
+  margin-top: 140px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 58px;
+
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  color: #1E2A39;
+}
+section.about p{
+  position: relative;
+  width: 100%;
+  height: 28px;
+  margin-left: 0;
+  margin-top: 40px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  text-align: center;
+
+  color: #5C6272;
+  }
+.container{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1150px;
+  padding: 20px;
+  flex-wrap: wrap;
+  margin-left: 370px;
+}
+article#card{
+  position: relative;
+  padding: 10px;
+  height: 330px;
+  width: 330px;
+  background-color: #fff;
+  margin: 20px;
+  overflow: hidden;
+  text-align: start;
+  border-radius: 12px;
+}
+article#card h1{
+  line-height: 36px;
+  font-size: 24px;
+  margin-top: 80px;
+}
+article#card p{
+  margin-top: -7px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 26px;
+}
+article div#icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 20px 80px -15px rgba(45, 51, 60, 0.8 );
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+/*Fim da primeira sectiom*/
+
+/* Começo da segunda section*/
+
+section.about-city{
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  align-items: center;
+  height: 660px;
+  width: 100%;
+  flex-wrap: wrap;
+  border-left: 30px;
+}
+section.about-city h1{
+  position: relative;
+  width: 100%;
+  height: 147px;
+  left: 330px;
+  top: -0px;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 50px;
+  letter-spacing: -0.483553px;
+  color: #292929;
+}
+section.about-city h4{
+  position: relative;
+  left: -525px;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.17em;
+  color: #40BC39;
+}
+section.about-city p{
+  width: 100%;
+  position: relative;
+  top: -80px;
+  left: 340px;
+  border-right: auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5C6272;
+  letter-spacing: 1.3px;
+}
+
+/* Fim da segunda section*/
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  #logo {
+    position: relative;
+    left: -20px;
+    }
+  header{
+    height: 560px;
+  }
+  header #menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    background: #fff;
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  header #nav.active #menu {
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  header #menu a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    color: #1A7C24;
+  }
+  header #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+  header #hamburger {
+    border-top: 2px solid;
+    width: 20px;
+  }
+  header #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+  header #nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  header #nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+  header #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+  header section.msg-welcome h1{
+    left: 0px;
+    font-size: 45px;
+    line-height: 50px;
+  }
+  header section.msg-welcome p{
+    font-size: 18px;
+    line-height: 20px;
+    align-items: none;
+    margin-top: -90px;
+  }  
+  section.about p{
+    margin-left: 0px;
+  }
+  .container{
+    width: auto;
+    margin-left: 0px;
+  }
+  section.about-city {
+    margin-top: 650px;
+  }
+  section.about-city h1{
+    display: flex;
+    text-align: start;
+    left: 5px;
+    top: 20px;
+    font-size: 28px;
+    letter-spacing: -2px;
+  }
+  section.about-city h4{
+    left: 0px;
+  }
+  section.about-city p{
+    left: 5px;
+    right: 5px;
+    top: 0px;
+    letter-spacing: -0.5px;
+  }
+}
